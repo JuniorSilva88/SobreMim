@@ -1,0 +1,39 @@
+:root {
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+}
+* {
+    color:var(--fontColor); 
+    font-family: helvetica;  
+}
+body {
+    background:var(--bg)
+}
+body {
+    font-family: monospace;
+}
+ul {
+    font-family: helvetica;
+}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+#msg {
+    font-family: monospace;
+}
+.light-theme {
+    color: #000000;
+    background: #00ff00;
+}
+.light-theme {
+    --bg:var(--green);
+    --frontColor:var(--black);
+}
+.darck-theme {
+    --bg:var(--black);
+    --fontColor:var(--green)
+}
