@@ -1,0 +1,45 @@
+body {
+    background-color: mediumseagreen;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    color: cyan;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    border: 3px solid cyan;
+}
+
+footer img{
+    width: 42px;
+    right: 42px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 22px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 3px ;
+    color: white;
+}
+
+footer p:hover {
+    color: orange;
+}
