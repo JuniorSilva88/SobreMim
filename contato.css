@@ -1,9 +1,12 @@
-body {
-    background-color: mediumseagreen;
+body { 
     color: white;
+    /*background-color: mediumseagreen;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0;
-    border: 0;
+    background: #283c86;
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    background: linear-gradient(to right, #45a247, #283c86); 
+    
+
 }
 
 h1 {
@@ -11,3 +14,12 @@ h1 {
     text-align: center;
     text-shadow: 5px 5px 5px black;
 }
+
+#container {
+    height: 575px;
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: 2px 2px var(--secondary-color);
+    border-radius: 18px;
+}
+
