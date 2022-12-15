@@ -1,21 +1,20 @@
 body { 
     color: white;
-    /*background-color: mediumseagreen;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #283c86;
     background: -webkit-linear-gradient(to right, #45a247, #283c86);
     background: linear-gradient(to right, #45a247, #283c86); 
-    
-
 }
 
 h1 {
     color: cyan;
     text-align: center;
     text-shadow: 5px 5px 5px black;
+    margin-top: 50px;
 }
 
 #container {
+    padding-top: 30px;
     height: 575px;
     width: 350px;
     margin: 100px auto;
@@ -23,3 +22,91 @@ h1 {
     border-radius: 18px;
 }
 
+input {
+    border-radius: 15px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+.enviar {
+    background-color: rgba(0, 0, 0, 0.611);
+    font-size: 14px;
+    color: white;
+    padding: 17px;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.enviar:hover {    
+    background-color: rgb(48, 79, 47);
+    cursor: pointer;
+    border: none;
+}
+.retornar {
+    background-color: rgba(0, 0, 0, 0.611);
+    font-size: 14px;
+    color: white;
+    padding: 17px;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.retornar:hover {    
+    background-color: rgb(48, 79, 47);
+    cursor: pointer;
+    border: none;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;    
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+   
+}
+
+footer img{
+    width: 42px;
+    right: 42px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 22px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 3px ;
+    color: white;
+    text-decoration: none;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+#rodape {
+    position: absolute;
+    bottom: 0;
+    left: center;
+}
