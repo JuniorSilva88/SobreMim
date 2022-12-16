@@ -1,0 +1,38 @@
+body { 
+    margin: 20px;
+    color: white;
+    background: #283c86;
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    background: linear-gradient(to right, #45a247, #283c86);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#rodape {
+    padding-left: 0px;
+    bottom: 0;
+    left: center;
+}

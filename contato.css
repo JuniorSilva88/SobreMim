@@ -53,19 +53,29 @@ textarea {
     cursor: pointer;
     border: none;
 }
-.retornar {
-    background-color: rgba(0, 0, 0, 0.611);
-    font-size: 14px;
-    color: white;
-    padding: 17px;
-    width: 80%;
-    border-radius: 12px;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
 }
 
-.retornar:hover {    
-    background-color: rgb(48, 79, 47);
-    cursor: pointer;
-    border: none;
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
 }
 
 div {
@@ -77,7 +87,6 @@ div {
     padding: 80px;
     border-radius: 15px;
     color: white;
-   
 }
 
 footer img{
